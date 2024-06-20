@@ -1,10 +1,13 @@
-/******************************************************************************* 
-    @theme: Export Process Viewer 
-    @version: 1.0.0 
-    @author: UX TEAM at Bizagi 
-    @description: Custom theme CSS rules for Process Viewer 
-    ********************************************************************************/
-/* ========================================================================== Export process viewer components ========================================================================== */
+/* css */
+
+/*******************************************************************************
+	@theme: Export Process Viewer
+	@version: 1.0.0
+	@author: UX TEAM at Bizagi
+	@description: Custom theme CSS rules for Process Viewer
+	@browser: IE8
+********************************************************************************
+//* ========================================================================== Export process viewer components ========================================================================== */
 /* General ========================================================================== */
 ::-webkit-input-placeholder {
   color: #a76b00;
@@ -44,16 +47,23 @@
 .biz-ex-header-view a:hover {
   color: #f2f2f2;
 }
-.lt-ie9 .biz-ex-header-view {
-  background: #e09100;
-}
 .biz-ex-logo {
-  background: #e09100;
+  background: #f59e00;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffa500), color-stop(100%, #f59e00));
+  background-image: -webkit-linear-gradient(#ffa500, #f59e00);
+  background-image: -moz-linear-gradient(#ffa500, #f59e00);
+  background-image: -o-linear-gradient(#ffa500, #f59e00);
+  background-image: linear-gradient(#ffa500, #f59e00);
   border-right-color: #d58a00;
   border-bottom-color: #d58a00;
 }
 .biz-ex-top-nav {
-  background: #e09100;
+  background: #eb9800;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e09100), color-stop(100%, #eb9800));
+  background-image: -webkit-linear-gradient(#e09100, #eb9800);
+  background-image: -moz-linear-gradient(#e09100, #eb9800);
+  background-image: -o-linear-gradient(#e09100, #eb9800);
+  background-image: linear-gradient(#e09100, #eb9800);
 }
 .biz-ex-back-process.biz-ex-navigate {
   border-color: #d58a00;
